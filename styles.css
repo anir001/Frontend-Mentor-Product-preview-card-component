@@ -32,8 +32,6 @@ body{
 }
 
 img{
-  /* max-width: 100%;
-  height: auto; */
   display:block; 
   object-fit: cover; 
   max-width:100%;
@@ -126,14 +124,14 @@ img{
   width: 1rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 375px) {
   body{
     max-height: none;
   }
 
-  .container .image img{
+  /* .container .image img{
     content: url("./images/image-product-desktop.jpg");
-  }
+  } */
 
   .container{
     flex-direction: row;
