@@ -39,34 +39,6 @@ img{
   max-width:100%;
 }
 
-@media only screen and (min-width: 600px) {
-  body{
-    max-height: none;
-  }
-
-  .container .image img{
-    content: url("./images/image-product-desktop.jpg");
-  }
-
-  .container{
-    flex-direction: row;
-    align-items: stretch;
-    max-height: 450px;
-    max-width: 600px;
-  }
-
-  .image{
-    width: 50%;
-  }
-  .card{
-    display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    width: 50%;
-  }
-
-}
-
 .container{
   align-items: center;
   background-color: var(--color-white);
@@ -154,7 +126,33 @@ img{
   width: 1rem;
 }
 
+@media only screen and (min-width: 600px) {
+  body{
+    max-height: none;
+  }
 
+  .container .image img{
+    content: url("./images/image-product-desktop.jpg");
+  }
+
+  .container{
+    flex-direction: row;
+    align-items: stretch;
+    max-height: 450px;
+    max-width: 600px;
+  }
+
+  .image{
+    width: 50%;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    width: 50%;
+  }
+
+}
 
 .attribution {
   margin-top: 0.2rem;
