@@ -129,7 +129,7 @@ img{
   }
 
   .container .image img{
-    content: url("/images/image-product-desktop.jpg");
+    content: url("./images/image-product-desktop.jpg");
   }
 
   .container{
